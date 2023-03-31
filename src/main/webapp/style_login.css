@@ -1,0 +1,97 @@
+body, html {
+	height: 100%;
+	background-repeat: no-repeat;
+	/* background:rgb(128, 255, 255); */
+	position: relative;
+}
+
+
+#login-box {
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	transform: translateX(-50%);
+	min-width: 350px;
+	margin: 0 auto;
+	border: 1px solid black;
+	background: rgb(192, 192, 192);
+	min-height: 250px;
+	padding: 30px;
+	z-index: 9999;
+	border-radius: 3.5rem;
+	box-shadow: 0 0 30px black;
+}
+#login-box .logo .logo-caption {
+	font-family: 'Poiret One', cursive;
+	color: rgb(0, 0, 0);
+	text-align: center;
+	margin-bottom: 0px;
+	font-weight:bold;
+}
+#login-box .logo .tweak {
+	color: rgb(255, 0, 0);
+}
+#login-box .controls {
+	padding-top: 30px;
+}
+#login-box .controls input {
+	border-radius: 0px;
+	background: rgb(255, 255, 255);
+	border: 1px solid black;
+	margin-bottom: 5px;
+	color: rgb(0, 0, 0);
+}
+#login-box .controls input:focus {
+	box-shadow: none;
+}
+#login-box .controls input:first-child {
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+#login-box .controls input:last-of-type {
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+#login-box .btn {
+	border-color: black;
+	color: black;
+}
+
+#login-box .btn-custom {
+	border-radius: 0 1rem;
+	margin-top: 8px;
+	background:#00ddff;
+}
+#login-box .btn-home {
+	border-radius: 5rem;
+	margin-top: 8px;
+	background:#ffc745;
+}
+
+#login-box .btn:hover{
+	-webkit-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
+	border-color: rgb(0, 0, 0);
+	font-weight: bold;
+}
+
+#login-box .btn-custom:hover{
+	background: rgb(38, 255, 0);
+}
+#login-box .btn-home:hover{
+	background: rgb(255, 128, 0)
+}
+	
+/* #particles-js{
+  	width: 100%;
+  	height: 100%;
+  	background-size: cover;
+  	background-position: 50% 50%;
+  	position: fixed;
+  	top: 0px;
+  	z-index:1;
+} */

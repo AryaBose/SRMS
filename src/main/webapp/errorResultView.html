@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+	<title>Student Error!</title>
+	<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css'>
+	<link rel="stylesheet" href="./style_login.css">
+	<style>
+	body {
+			background-color: black;
+		}
+
+		body::before {
+			content: "";
+			width: 100%;
+			height: 100%;
+			background-image: url("images/result_background.jpg");
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: cover;
+			position: absolute;
+			top: 0;
+			left: 0;
+			opacity: 0.5;
+		}
+		h4 {
+			font-family: 'Poiret One', cursive;
+			color: red;
+		}
+
+		.login-box {
+			height: 1020px;
+		}
+	</style>
+</head>
+
+<body>
+	<!-- partial:index.partial.html -->
+	<div class="container">
+		<form method="post" action="studentHome.jsp">
+			<div id="login-box">
+				<div class="logo">
+					<img src="images/result_new.png" class="img img-responsive img-circle center-block" height=140px
+						width=140px>
+					<h1 class="logo-caption"><span class="tweak">Res</span>ult</h1>
+					<h4>
+						<center>Incorrect Roll Number <br>Try again</center>
+					</h4>
+				</div><!-- /.logo -->
+				<div class="controls">
+					<input type="text" name="rollNo" placeholder="Roll No." class="form-control" required="required" />
+					<button type="submit" class="btn btn-default btn-block btn-custom"
+						value="Search">Search</button><br>
+					<center><a href="index.html" class="btn btn-default btn-block btn-home">Back to Home</a></center>
+				</div>
+			</div>
+		</form>
+
+	</div>
+	<!--<div id="particles-js"></div>  -->
+	<!-- partial -->
+	<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css'></script>
+	<script src='https://code.jquery.com/jquery-1.11.1.min.js'></script>
+	<!-- <script src="./script.js"></script> -->
+
+</body>
+
+</html>
